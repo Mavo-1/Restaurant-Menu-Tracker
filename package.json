@@ -1,0 +1,28 @@
+{
+  "name": "menu-tracking-app",
+  "version": "1.0.0",
+  "description": "Menu tracking app to check what food is served at restuarant",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alejandro Garcia",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "connect-mongo": "^4.6.0",
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.17.3",
+    "mongodb": "^4.12.0",
+    "mongoose": "^6.7.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "validator": "^13.7.0"
+  }
+}
